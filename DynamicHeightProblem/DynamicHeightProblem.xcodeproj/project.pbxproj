@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806FEC8D21EC7C0800CDC456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FEC8C21EC7C0800CDC456 /* AppDelegate.swift */; };
+		806FEC9421EC7C0A00CDC456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806FEC9321EC7C0A00CDC456 /* Assets.xcassets */; };
+		806FEC9F21EC7C9300CDC456 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FEC9E21EC7C9300CDC456 /* ProblemViewController.swift */; };
+		806FECA121EC7CA000CDC456 /* FixedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECA021EC7CA000CDC456 /* FixedViewController.swift */; };
+		806FECA321EC7D4D00CDC456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806FECA221EC7D4D00CDC456 /* LaunchScreen.storyboard */; };
+		806FECA521EC7E3300CDC456 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECA421EC7E3300CDC456 /* NormalViewController.swift */; };
+		806FECA721EC7E6D00CDC456 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECA621EC7E6D00CDC456 /* ReusableProtocol.swift */; };
+		806FECAA21EC7EFC00CDC456 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECA821EC7EFB00CDC456 /* ItemTableViewCell.swift */; };
+		806FECAB21EC7EFC00CDC456 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806FECA921EC7EFC00CDC456 /* ItemTableViewCell.xib */; };
+		806FECAD21EC7F7F00CDC456 /* ItemHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECAC21EC7F7F00CDC456 /* ItemHeaderFooterView.swift */; };
+		806FECAF21EC7F8500CDC456 /* ItemHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806FECAE21EC7F8500CDC456 /* ItemHeaderFooterView.xib */; };
+		806FECB121EC805C00CDC456 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECB021EC805C00CDC456 /* DataManager.swift */; };
+		806FECB321EC86D200CDC456 /* SeparatorHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECB221EC86D200CDC456 /* SeparatorHeaderFooterView.swift */; };
+		806FECB521EC86DF00CDC456 /* SeparatorHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806FECB421EC86DF00CDC456 /* SeparatorHeaderFooterView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		806FEC8921EC7C0800CDC456 /* DynamicHeightProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806FEC8C21EC7C0800CDC456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		806FEC9321EC7C0A00CDC456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806FEC9821EC7C0A00CDC456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806FEC9E21EC7C9300CDC456 /* ProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
+		806FECA021EC7CA000CDC456 /* FixedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedViewController.swift; sourceTree = "<group>"; };
+		806FECA221EC7D4D00CDC456 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806FECA421EC7E3300CDC456 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		806FECA621EC7E6D00CDC456 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		806FECA821EC7EFB00CDC456 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		806FECA921EC7EFC00CDC456 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		806FECAC21EC7F7F00CDC456 /* ItemHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemHeaderFooterView.swift; sourceTree = "<group>"; };
+		806FECAE21EC7F8500CDC456 /* ItemHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemHeaderFooterView.xib; sourceTree = "<group>"; };
+		806FECB021EC805C00CDC456 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		806FECB221EC86D200CDC456 /* SeparatorHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorHeaderFooterView.swift; sourceTree = "<group>"; };
+		806FECB421EC86DF00CDC456 /* SeparatorHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeparatorHeaderFooterView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806FEC8621EC7C0800CDC456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806FEC8021EC7C0800CDC456 = {
+			isa = PBXGroup;
+			children = (
+				806FEC8B21EC7C0800CDC456 /* DynamicHeightProblem */,
+				806FEC8A21EC7C0800CDC456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806FEC8A21EC7C0800CDC456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806FEC8921EC7C0800CDC456 /* DynamicHeightProblem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806FEC8B21EC7C0800CDC456 /* DynamicHeightProblem */ = {
+			isa = PBXGroup;
+			children = (
+				806FEC8C21EC7C0800CDC456 /* AppDelegate.swift */,
+				806FECA421EC7E3300CDC456 /* NormalViewController.swift */,
+				806FEC9E21EC7C9300CDC456 /* ProblemViewController.swift */,
+				806FECA021EC7CA000CDC456 /* FixedViewController.swift */,
+				806FECA821EC7EFB00CDC456 /* ItemTableViewCell.swift */,
+				806FECA921EC7EFC00CDC456 /* ItemTableViewCell.xib */,
+				806FECAC21EC7F7F00CDC456 /* ItemHeaderFooterView.swift */,
+				806FECAE21EC7F8500CDC456 /* ItemHeaderFooterView.xib */,
+				806FECB221EC86D200CDC456 /* SeparatorHeaderFooterView.swift */,
+				806FECB421EC86DF00CDC456 /* SeparatorHeaderFooterView.xib */,
+				806FECA621EC7E6D00CDC456 /* ReusableProtocol.swift */,
+				806FECB021EC805C00CDC456 /* DataManager.swift */,
+				806FECA221EC7D4D00CDC456 /* LaunchScreen.storyboard */,
+				806FEC9321EC7C0A00CDC456 /* Assets.xcassets */,
+				806FEC9821EC7C0A00CDC456 /* Info.plist */,
+			);
+			path = DynamicHeightProblem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806FEC8821EC7C0800CDC456 /* DynamicHeightProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806FEC9B21EC7C0A00CDC456 /* Build configuration list for PBXNativeTarget "DynamicHeightProblem" */;
+			buildPhases = (
+				806FEC8521EC7C0800CDC456 /* Sources */,
+				806FEC8621EC7C0800CDC456 /* Frameworks */,
+				806FEC8721EC7C0800CDC456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicHeightProblem;
+			productName = DynamicHeightProblem;
+			productReference = 806FEC8921EC7C0800CDC456 /* DynamicHeightProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806FEC8121EC7C0800CDC456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jiar;
+				TargetAttributes = {
+					806FEC8821EC7C0800CDC456 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 806FEC8421EC7C0800CDC456 /* Build configuration list for PBXProject "DynamicHeightProblem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806FEC8021EC7C0800CDC456;
+			productRefGroup = 806FEC8A21EC7C0800CDC456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806FEC8821EC7C0800CDC456 /* DynamicHeightProblem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806FEC8721EC7C0800CDC456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806FEC9421EC7C0A00CDC456 /* Assets.xcassets in Resources */,
+				806FECAB21EC7EFC00CDC456 /* ItemTableViewCell.xib in Resources */,
+				806FECA321EC7D4D00CDC456 /* LaunchScreen.storyboard in Resources */,
+				806FECAF21EC7F8500CDC456 /* ItemHeaderFooterView.xib in Resources */,
+				806FECB521EC86DF00CDC456 /* SeparatorHeaderFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806FEC8521EC7C0800CDC456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806FECB321EC86D200CDC456 /* SeparatorHeaderFooterView.swift in Sources */,
+				806FECAD21EC7F7F00CDC456 /* ItemHeaderFooterView.swift in Sources */,
+				806FECB121EC805C00CDC456 /* DataManager.swift in Sources */,
+				806FEC9F21EC7C9300CDC456 /* ProblemViewController.swift in Sources */,
+				806FECA521EC7E3300CDC456 /* NormalViewController.swift in Sources */,
+				806FECA721EC7E6D00CDC456 /* ReusableProtocol.swift in Sources */,
+				806FEC8D21EC7C0800CDC456 /* AppDelegate.swift in Sources */,
+				806FECAA21EC7EFC00CDC456 /* ItemTableViewCell.swift in Sources */,
+				806FECA121EC7CA000CDC456 /* FixedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		806FEC9921EC7C0A00CDC456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806FEC9A21EC7C0A00CDC456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806FEC9C21EC7C0A00CDC456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8EQ9X7Q9;
+				INFOPLIST_FILE = DynamicHeightProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jiar.DynamicHeightProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806FEC9D21EC7C0A00CDC456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8EQ9X7Q9;
+				INFOPLIST_FILE = DynamicHeightProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jiar.DynamicHeightProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806FEC8421EC7C0800CDC456 /* Build configuration list for PBXProject "DynamicHeightProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806FEC9921EC7C0A00CDC456 /* Debug */,
+				806FEC9A21EC7C0A00CDC456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806FEC9B21EC7C0A00CDC456 /* Build configuration list for PBXNativeTarget "DynamicHeightProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806FEC9C21EC7C0A00CDC456 /* Debug */,
+				806FEC9D21EC7C0A00CDC456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806FEC8121EC7C0800CDC456 /* Project object */;
+}
